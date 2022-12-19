@@ -7,18 +7,33 @@
 
 import SwiftUI
 
+/*
+ UIKit = UserInterfaceKit
+ WatchKit
+ AppKit = MacOS App
+ 
+ */
+
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "star.fill")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .foregroundColor(Color.red)
+            Text("안녕하세요!")
+            Text("안녕하세요!")
         }
         .padding()
+        .border(.red)
+        .padding()
+        .border(.green)
+        //.frame(width: 400, height: 700)
+        .frame(maxWidth: .infinity ,maxHeight: .infinity)
+        .background(.gray)
     }
 }
 
+//미리보기를 구성해주는 뷰
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
