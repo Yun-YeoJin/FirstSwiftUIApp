@@ -24,7 +24,6 @@ struct ListView: View {
                 .font(.caption)
                 .fontWeight(.medium)
                 .foregroundColor(Color.blue)
-            
             Text("8위")
             ForEach(0..<50) {
                 Text("리스트셀\($0)")

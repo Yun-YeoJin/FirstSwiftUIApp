@@ -43,6 +43,7 @@ struct ExampleView: View {
 struct ExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ExampleView()
-            .previewDevice("iPhone 11")
+            .previewInterfaceOrientation(.portrait)
+            .previewDevice("iPhone SE (3rd generation)")
     }
 }
