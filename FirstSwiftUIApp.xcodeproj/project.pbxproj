@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE46F4992959ECBE000BF21F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE46F4982959ECBE000BF21F /* TextView.swift */; };
+		AE46F49B2959F360000BF21F /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE46F49A2959F360000BF21F /* StackView.swift */; };
 		AEBA0787294FF40F00ED3786 /* FirstSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA0786294FF40F00ED3786 /* FirstSwiftUIAppApp.swift */; };
 		AEBA0789294FF40F00ED3786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA0788294FF40F00ED3786 /* ContentView.swift */; };
 		AEBA078B294FF41000ED3786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBA078A294FF41000ED3786 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		AE46F4982959ECBE000BF21F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		AE46F49A2959F360000BF21F /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		AEBA0783294FF40F00ED3786 /* FirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBA0786294FF40F00ED3786 /* FirstSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		AEBA0788294FF40F00ED3786 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				AEBA07B0294FF88D00ED3786 /* ExampleView.swift */,
 				AEBA07B2295002E600ED3786 /* ListView.swift */,
 				AE46F4982959ECBE000BF21F /* TextView.swift */,
+				AE46F49A2959F360000BF21F /* StackView.swift */,
 				AEBA078A294FF41000ED3786 /* Assets.xcassets */,
 				AEBA078C294FF41000ED3786 /* Preview Content */,
 			);
@@ -271,6 +274,7 @@
 				AEBA0787294FF40F00ED3786 /* FirstSwiftUIAppApp.swift in Sources */,
 				AEBA07B1294FF88D00ED3786 /* ExampleView.swift in Sources */,
 				AE46F4992959ECBE000BF21F /* TextView.swift in Sources */,
+				AE46F49B2959F360000BF21F /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
