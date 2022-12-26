@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StackView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             VStack {
                 ImageView()
                 ButtonView()
@@ -36,3 +36,4 @@ struct StackView_Previews: PreviewProvider {
         StackView()
     }
 }
+
